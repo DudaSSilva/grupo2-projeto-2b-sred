@@ -4,10 +4,8 @@
 
 * Sub-rede: 192.168.13.[16-31]
 * Rede: 198.168.13.16
-
 * Broadcast: 198.168.31
-
-*gateway: 192.168.13.17
+* gateway: 192.168.13.17
 
 ```
 Tabela 1: Definições de endereços IPs da Rede e Nomes de Hosts

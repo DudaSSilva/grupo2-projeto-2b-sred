@@ -1,6 +1,6 @@
 # Projeto 2º Bimestre das Disciplinas de Infraestrutura e Serviços de Redes (PRIR/SRED e ISRE)
 
-# Grupo 2
+## Grupo 2
 
 Sub-rede: 192.168.13.[16-31]
 
@@ -10,6 +10,7 @@ Broadcast: 198.168.31
 
 gateway: 192.168.13.17
 
+```
 Tabela 1: Definições de endereços IPs da Rede e Nomes de Hosts
 
 ------------------------------------------------------------------------------------------------------------
@@ -24,4 +25,4 @@ Tabela 1: Definições de endereços IPs da Rede e Nomes de Hosts
 | VM1-PC4     | 192.168.13.23      |   srv-vm1-pc4     | vm1-pc4.grupo2-913.ifalara.net |       duda1      |
 | VM2-PC4     | 192.168.13.24      |   srv-vm2-pc4     | vm1-pc4.grupo2-913.ifalara.net |       duda2      |
 ------------------------------------------------------------------------------------------------------------
-
+```

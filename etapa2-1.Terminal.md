@@ -15,12 +15,16 @@ Esse comando serve para alterar o usuário que, inicialmente, está configurado 
 (Por questões de segurança, a senha fica invisível. Então, digite-a corretamente. Caso haja falha na autenticação, basta tentar novamente.)
 
 <p><center> Figura 1: Alteração de usuário aluno para redes</center></p>   
-   <img src="figures/alteracaoUsuario.png" alt=""
-    title="Figura 1: Alteração de usuário" width="800" height="auto"/> <br/>
+   <img src="figures/alteracaoUsuario.jpg" alt=""
+    title="Figura 1: Alteração de usuário" width="300" height="auto"/>
 
 ### 1.2. Criar pasta labredes na raiz / e subpastas
 
-Posteriormente criaremos as pastas/os diretórios onde ficarão armazenados nossos arquivos (imagem 2). Mas, antes de criar essas pastas, é importante verificar se elas já existem (tal como ocorre na imagem 3), no caso de não ser a primeira vez configurando uma VM com esses passos.
+Posteriormente criaremos as pastas/os diretórios onde ficarão armazenados nossos arquivos. Mas, antes de criar essas pastas, é importante verificar se elas já existem (tal como ocorre na imagem 2), no caso de não ser a primeira vez configurando uma VM com esses passos.
+
+<p><center> Figura 2: Verificação de existência de pastas e subpastas/center></p>   
+   <img src="figures/verificacaoExistenciaDiretorios.jpg" alt=""
+    title="Figura 2: Verificacao-Existencia-Diretorios" width="300" height="auto"/>
 
 Para efetuar esta criação dos diretórios, primeiro entra-se no diretório raiz usando:
 
@@ -68,3 +72,7 @@ Para terminal do PC2: ```shell sudo mkdir ygor ```
 Para terminal do PC3: ```shell sudo mkdir camile ```
 
 Para terminal do PC4: ```shell sudo mkdir eduarda ```
+
+<p><center> Figura N: Verificação de existência de pastas e subpastas/center></p>   
+   <img src="figures/criacaoPastaAluno4.jpg" alt=""
+    title="Figura N: Pasta-Eduarda" width="500" height="auto"/>

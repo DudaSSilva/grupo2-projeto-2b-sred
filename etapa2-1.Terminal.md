@@ -10,11 +10,13 @@ Primeiro, é preciso entrar na rede para, assim, conseguirmos efetuar os comando
 
 ``su redes``
 
-Esse comando serve para alterar o usuário que, inicialmente, está configurado como aluno@LABREDES-VM. Após o comando anterior e a inserção da senha (admin@Lab92) para o usuário redes, o usuário foi alterado para redes@LABREDES-VM conforme a imagem 1.  
+Esse comando serve para alterar o usuário que, inicialmente, está configurado como aluno@LABREDES-VM. Após o comando anterior e a inserção da senha (admin@Lab92) para o usuário redes, o usuário foi alterado para redes@LABREDES-VM conforme a figura 1.  
 
 (Por questões de segurança, a senha fica invisível. Então, digite-a corretamente. Caso haja falha na autenticação, basta tentar novamente.)
 
-
+<p><center> Figura 1: Alteração de usuário aluno para redes</center></p>   
+   <img src="figures/alteracaoUsuario.png" alt=""
+    title="Figura 1: Alteração de usuário" width="800" height="auto"/> <br/>
 
 ### 1.2. Criar pasta labredes na raiz / e subpastas
 

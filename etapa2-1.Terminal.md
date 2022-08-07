@@ -22,7 +22,7 @@ Esse comando serve para alterar o usuário que, inicialmente, está configurado 
 
 Posteriormente criaremos as pastas/os diretórios onde ficarão armazenados nossos arquivos. Mas, antes de criar essas pastas, é importante verificar se elas já existem (tal como ocorre na imagem 2), no caso de não ser a primeira vez configurando uma VM com esses passos.
 
-<p><center> Figura 2: Verificação de existência de pastas e subpastas/center></p>   
+<p><center> Figura 2: Verificação de existência de pastas e subpastas</center></p>   
    <img src="figures/verificacaoExistenciaDiretorios.jpg" alt=""
     title="Figura 2: Verificacao-Existencia-Diretorios" width="300" height="auto"/>
 
@@ -73,6 +73,6 @@ Para terminal do PC3: ```shell sudo mkdir camile ```
 
 Para terminal do PC4: ```shell sudo mkdir eduarda ```
 
-<p><center> Figura N: Verificação de existência de pastas e subpastas/center></p>   
+<p><center> Figura N: Verificação de existência de pastas e subpastas</center></p>   
    <img src="figures/criacaoPastaAluno4.jpg" alt=""
     title="Figura N: Pasta-Eduarda" width="500" height="auto"/>

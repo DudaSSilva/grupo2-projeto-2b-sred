@@ -6,4 +6,4 @@ Um ambiente de rede virtualizada trata-se de (breve contextualização aqui, com
 
 ### Tutorial do passo-a-passo de configuração  e execução de um ambiente de rede virtualizada:
 
-* [Etapa 1](https://github.com/DudaSSilva/grupo2-projeto-2b-sred/blob/main/etapa1.md)
+* [Etapa 1](https://github.com/DudaSSilva/grupo2-projeto-2b-sred/blob/main/etapa1.md) -  tabela de definições

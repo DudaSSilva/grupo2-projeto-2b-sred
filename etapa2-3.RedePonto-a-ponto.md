@@ -123,10 +123,16 @@ ping 192.168.13.23
 ping 192.168.13.24     
 ```
 
-* Ping das demais VMS para VM2-PC1
+* Ping das demais VMS para VM1-PC1
 
 ```shell
 ping 192.168.13.17    
+```
+
+* Ping das demais VMS para VM2-PC1
+
+```shell
+ping 192.168.13.21    
 ```
 
 * Fazer ping de todos para todos.

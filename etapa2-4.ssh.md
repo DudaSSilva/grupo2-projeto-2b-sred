@@ -15,5 +15,5 @@ ssh camile@192.162.13.23
    * para: srv-vm2-pc4
 
 ```shell
-ssh eduarda@192.162.13.24
+ssh eduardasoares@192.162.13.24
 ```

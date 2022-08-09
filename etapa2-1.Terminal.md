@@ -65,13 +65,13 @@ sudo mkdir <student>
 Como são 4 PCS com 4 usuários/estudantes distintos, o passo anterior fica da seguinte maneira:
 
 
-Para terminal do PC1: ```shell sudo mkdir matheus ```
+Para terminal do PC1: ```sudo mkdir matheus ```
 
-Para terminal do PC2: ```shell sudo mkdir ygor ```
+Para terminal do PC2: ```sudo mkdir ygor ```
 
-Para terminal do PC3: ```shell sudo mkdir camile ```
+Para terminal do PC3: ```sudo mkdir camile ```
 
-Para terminal do PC4: ```shell sudo mkdir eduarda ```
+Para terminal do PC4: ```sudo mkdir eduarda ```
 
 <p><center> Figura N: Verificação de existência de pastas e subpastas</center></p>   
    <img src="figures/criacaoPastaAluno4.jpg" alt=""

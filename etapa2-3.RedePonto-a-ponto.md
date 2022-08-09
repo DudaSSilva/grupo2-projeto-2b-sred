@@ -8,7 +8,7 @@
 network:
     ethernets:
         enp0s3:                              
-            addresses: [192.168.13.17/25]    
+            addresses: [192.168.13.17/28]    
             gateway4: 192.168.13.17          
             dhcp4: false                     
     version: 2
@@ -20,7 +20,7 @@ network:
 network:
     ethernets:
         enp0s3:                              
-            addresses: [192.168.13.21/25]    
+            addresses: [192.168.13.21/28]    
             gateway4: 192.168.13.17          
             dhcp4: false                     
     version: 2
@@ -34,7 +34,7 @@ network:
 network:
     ethernets:
         enp0s3:                              
-            addresses: [192.168.13.18/25]    
+            addresses: [192.168.13.18/28]    
             gateway4: 192.168.13.17          
             dhcp4: false                     
     version: 2
@@ -46,7 +46,7 @@ network:
 network:
     ethernets:
         enp0s3:                              
-            addresses: [192.168.13.22/25]    
+            addresses: [192.168.13.22/28]    
             gateway4: 192.168.13.17          
             dhcp4: false                     
     version: 2
@@ -60,7 +60,7 @@ network:
 network:
     ethernets:
         enp0s3:                              
-            addresses: [192.168.13.19/25]    
+            addresses: [192.168.13.19/28]    
             gateway4: 192.168.13.17          
             dhcp4: false                     
     version: 2
@@ -72,7 +72,7 @@ network:
 network:
     ethernets:
         enp0s3:                              
-            addresses: [192.168.13.23/25]    
+            addresses: [192.168.13.23/28]    
             gateway4: 192.168.13.17          
             dhcp4: false                     
     version: 2
@@ -86,7 +86,7 @@ network:
 network:
     ethernets:
         enp0s3:                              
-            addresses: [192.168.13.20/25]    
+            addresses: [192.168.13.20/28]    
             gateway4: 192.168.13.17          
             dhcp4: false                     
     version: 2
@@ -98,7 +98,7 @@ network:
 network:
     ethernets:
         enp0s3:                              
-            addresses: [192.168.13.24/25]    
+            addresses: [192.168.13.24/28]    
             gateway4: 192.168.13.17          
             dhcp4: false                     
     version: 2

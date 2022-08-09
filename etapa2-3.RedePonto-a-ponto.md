@@ -103,3 +103,30 @@ network:
             dhcp4: false                     
     version: 2
 ```
+
+### Testando a conectividade entre as VMs
+
+   * Ping da VM1-PC1 para VM2-PC2
+
+```shell
+ping 192.168.13.22      # ctrl + c para finalizar o comando
+```
+   * Ping da VM1-PC1 para VM2-PC3
+
+```shell
+ping 192.168.13.23      
+```
+
+ * Ping da VM1-PC1 para VM2-PC4
+
+```shell
+ping 192.168.13.24     
+```
+
+* Ping das demais VMS para VM2-PC1
+
+```shell
+ping 192.168.13.17    
+```
+
+* Fazer ping de todos para todos.

@@ -8,12 +8,12 @@
    * para: srv-vm2-pc3
 
 ```shell
-ssh camile@192.162.13.23
+ssh camile@192.168.13.23
 ```
 
 * de: srv-vm1-pc3
    * para: srv-vm2-pc4
 
 ```shell
-ssh eduardasoares@192.162.13.24
+ssh eduardasoares@192.168.13.24
 ```

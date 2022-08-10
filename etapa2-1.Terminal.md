@@ -73,6 +73,10 @@ Para terminal do PC3: ```sudo mkdir camile ```
 
 Para terminal do PC4: ```sudo mkdir eduarda ```
 
+<p><center> Figura 3: Criação de pasta de usuário 4</center></p>   
+   <img src="figures/criacaoPastaAluno4.jpg" alt=""
+    title="Figura 3: Pasta-Eduarda" width="500" height="auto"/>
+
 Agora, antes de passar para a etapa na qual as nossas VMS serão configuradas, primeiro vamos permitir que o usuário aluno possa acessar os arquivos e pastas cujo processo de dowload será descrito na [etapa 2: 2.Configuração da VM](https://github.com/DudaSSilva/grupo2-projeto-2b-sred/blob/main/etapa2-2.NaVM.md).
 
 Para adicionar o aluno ao grupo redes, primeiro efetuamos, no terminal, o comando:
@@ -91,6 +95,6 @@ Posteriormente, com o  comando ``sudo chmod -R 771 /labredes`` alteramos as perm
 
 Por fim, a verificação das pastas e subpastas (figura 3) criadas anteriormente é importante para garantir que seus arquivos sejam salvos, e, assim, possamos definir a rota de onde eles estão armmazenados.
 
-<p><center> Figura 3: Verificação de existência de pastas e subpastas</center></p>   
-   <img src="figures/criacaoPastaAluno4.jpg" alt=""
-    title="Figura 3: Pasta-Eduarda" width="500" height="auto"/>
+<p><center> Figura 4: Verificação de existência de pastas e subpastas</center></p>   
+   <img src="figures/verificacaoExistenciaDiretorios.jpg" alt=""
+    title="Figura 4: Pastas-Eduarda" width="500" height="auto"/>

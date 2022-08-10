@@ -18,7 +18,7 @@ Esse comando serve para alterar o usuário que, inicialmente, está configurado 
    <img src="figures/alteracaoUsuario.jpg" alt=""
     title="Figura 1: Alteração de usuário" width="300" height="auto"/>
 
-### 1.2. Criar pasta labredes na raiz / e subpastas
+### 1.2. Criar pasta labredes na raiz ``/`` e subpastas
 
 Posteriormente criaremos as pastas/os diretórios onde ficarão armazenados nossos arquivos. Mas, antes de criar essas pastas, é importante verificar se elas já existem (tal como ocorre na imagem 2), no caso de não ser a primeira vez configurando uma VM com esses passos.
 
@@ -76,3 +76,19 @@ Para terminal do PC4: ```sudo mkdir eduarda ```
 <p><center> Figura N: Verificação de existência de pastas e subpastas</center></p>   
    <img src="figures/criacaoPastaAluno4.jpg" alt=""
     title="Figura N: Pasta-Eduarda" width="500" height="auto"/>
+
+Agora, antes de passar para a etapa na qual as nossas VMS serão configuradas, primeiro vamos permitir que o usuário aluno possa acessar os arquivos e pastas cujo processo de dowload será descrito na [etapa 2: 2.Configuração da VM](https://github.com/DudaSSilva/grupo2-projeto-2b-sred/blob/main/etapa2-2.NaVM.md).
+
+Para adicionar o aluno ao grupo redes, primeiro efetuamos, no terminal, o comando:
+
+``sudo usermod -aG redes aluno``
+
+Em seguida, modificamos a classificação de pertencimento a grupos utilizando o comando:
+
+``sudo chown -R nobody:nogroup /labredes`` 
+
+E alteramos o proprietário de tal grupo para o usuário aluno com: 
+
+`` sudo chgrp -R redes /labredes`` 
+
+Posteriormente, com o  comando ``sudo chmod -R 771 /labredes`` alteramos as permições de diretórios. Agora, para verificar se está tudo correto para prosseguirmos, sem falhas, com a criação e configuração das VMS, efetuamos o comando `` getent group``, que, basicamente, irá mostrar se o usuário possui grupos e certificará que nossas modificações realizadas com os comandos anteriores funcioram. 

@@ -73,10 +73,6 @@ Para terminal do PC3: ```sudo mkdir camile ```
 
 Para terminal do PC4: ```sudo mkdir eduarda ```
 
-<p><center> Figura N: Verificação de existência de pastas e subpastas</center></p>   
-   <img src="figures/criacaoPastaAluno4.jpg" alt=""
-    title="Figura N: Pasta-Eduarda" width="500" height="auto"/>
-
 Agora, antes de passar para a etapa na qual as nossas VMS serão configuradas, primeiro vamos permitir que o usuário aluno possa acessar os arquivos e pastas cujo processo de dowload será descrito na [etapa 2: 2.Configuração da VM](https://github.com/DudaSSilva/grupo2-projeto-2b-sred/blob/main/etapa2-2.NaVM.md).
 
 Para adicionar o aluno ao grupo redes, primeiro efetuamos, no terminal, o comando:
@@ -92,3 +88,9 @@ E alteramos o proprietário de tal grupo para o usuário aluno com:
 `` sudo chgrp -R redes /labredes`` 
 
 Posteriormente, com o  comando ``sudo chmod -R 771 /labredes`` alteramos as permições de diretórios. Agora, para verificar se está tudo correto para prosseguirmos, sem falhas, com a criação e configuração das VMS, efetuamos o comando `` getent group``, que, basicamente, irá mostrar se o usuário possui grupos e certificará que nossas modificações realizadas com os comandos anteriores funcioram. 
+
+Por fim, a verificação das pastas e subpastas (figura 3) criadas anteriormente é importante para garantir que seus arquivos sejam salvos, e, assim, possamos definir a rota de onde eles estão armmazenados.
+
+<p><center> Figura 3: Verificação de existência de pastas e subpastas</center></p>   
+   <img src="figures/criacaoPastaAluno4.jpg" alt=""
+    title="Figura 3: Pasta-Eduarda" width="500" height="auto"/>

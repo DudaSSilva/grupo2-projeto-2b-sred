@@ -33,7 +33,7 @@ Em seguida, pode-se encontrar o caminho do arquivo a ser importado clicando na c
    <img src="figures/importAppliance2.jpg" alt=""
     title="Figura 3: Arquivo ova 2" width="500" height="auto"/>
  
-Aguarda o carregamento do arquivo e seta as opções da VM, modificando, também, a pasta padrão para a máquina seguindo o exemplo: ``/labredes/VM/turma/aluno`` e o nome da VM para o padrão ``VM-PC..-aluno``.
+Aguarda o carregamento do arquivo e seta as opções da VM, modificando, também, a pasta padrão para a máquina colocando o diretório onde será salva a VM seguindo o padrão: ``/labredes/VM/turma/aluno`` e o nome da VM para o exemplo ``VM-PC..-aluno``.
 
 Utilizando a exemplo a VM1-PC4 desta equipe, o passo anterior ficaria da seguinte maneira(ver imagens 4 e 5): 
 

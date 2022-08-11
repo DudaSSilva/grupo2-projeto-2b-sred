@@ -13,21 +13,12 @@ Para o caso de os arquivos ``.iso`` não estarem instalados, precisa-se baixá-l
 
 Uma vez que os arquivos foram baixados e a VM fora criada, é preciso abrir o VirtualBox e, conforme a figura 2, acessar a opção de Import_Appliance. Em seguida, selecionamos o arquivo na pasta em que foi baixada.
 
-<p><center> Figura 1: Alteração de usuário aluno para redes</center></p>   
-   <img src="figures/alteracaoUsuario.jpg" alt=""
-    title="Figura 1: Alteração de usuário" width="300" height="auto"/>
+
  
 Aguarda o carregamento do arquivo e seta as opções da VM.
 
-<p><center> Figura 1: Alteração de usuário aluno para redes</center></p>   
-   <img src="figures/alteracaoUsuario.jpg" alt=""
-    title="Figura 1: Alteração de usuário" width="300" height="auto"/>
  
 Como é necessário duas VMS (para cada PC, claro) para a realização deste projeto, iremos criar uma segunda VM. No entanto, os comandos anteriores não precisam ser repetidos, basta você clonar a VM já criada e apenas alterar as configurações setadas nela para as configurações pré-determinadas para sua segunda VM.
-
-<p><center> Figura 1: Alteração de usuário aluno para redes</center></p>   
-   <img src="figures/alteracaoUsuario.jpg" alt=""
-    title="Figura 1: Alteração de usuário" width="300" height="auto"/>
     
   
     

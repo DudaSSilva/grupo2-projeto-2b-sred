@@ -17,7 +17,7 @@ Para o caso de os arquivos ``.iso`` não estarem instalados, precisa-se baixá-l
 
 <p><center> Figura 1: Exibição de arquivos e instalação do virtual box</center></p>   
    <img src="figures/instalarVirtualBoxNoTerminal.jpg" alt=""
-    title="Figura 1: Exibição-Instalação" width="300" height="auto"/>
+    title="Figura 1: Exibição-Instalação" width="400" height="auto"/>
 
 ### 2.3. Conseguir/importar a VM
 
@@ -43,11 +43,11 @@ Utilizando a exemplo a VM1-PC4 desta equipe, o passo anterior ficaria da seguint
 
 <p><center> Figura 5: Alteração de nome da VM</center></p>   
    <img src="figures/nomeVM.jpg" alt=""
-    title="Figura 5: Nome-VM" width="400" height="auto"/>
+    title="Figura 5: Nome-VM" width="300" height="auto"/>
 
 <p><center> Figura 6: Alteração de caminho para máquina virtual</center></p>   
    <img src="figures/caminhoVM.jpg" alt=""
-    title="Figura 6: Caminho" width="400" height="auto"/>
+    title="Figura 6: Caminho" width="300" height="auto"/>
  
 Como é necessário duas VMS (para cada PC, claro) para a realização deste projeto, iremos criar uma segunda VM. No entanto, os comandos anteriores não precisam ser repetidos, basta você clonar a VM já criada e apenas alterar as configurações setadas nela para as configurações pré-determinadas para sua segunda VM.
 

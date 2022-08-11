@@ -15,9 +15,9 @@ Para o caso de os arquivos ``.iso`` não estarem instalados, precisa-se baixá-l
 
 (É mportante verificar a existência de tais arquivos, pelo terminal, nas pastas onde foram baixados, com o comando ``ls -la``)
 
-<p><center> Figura 1: Importar Appliance.ova</center></p>   
-   <img src="figures/importAppliance.jpg" alt=""
-    title="Figura 1: Importar Appliance" width="300" height="auto"/>
+<p><center> Figura 1: Exibição de arquivos e instalação do virtual box</center></p>   
+   <img src="figures/instalarVirtualBoxNoTerminal.jpg" alt=""
+    title="Figura 1: Exibição-Instalação" width="300" height="auto"/>
 
 ### 2.3. Conseguir/importar a VM
 

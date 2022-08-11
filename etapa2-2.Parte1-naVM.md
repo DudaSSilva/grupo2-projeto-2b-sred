@@ -35,7 +35,7 @@ Em seguida, pode-se encontrar o caminho do arquivo a ser importado clicando na c
  
 Aguarda o carregamento do arquivo e seta as opções da VM, modificando, também, a pasta padrão para a máquina seguindo o exemplo: ``/labredes/VM/turma/aluno`` e o nome da VM para o padrão ``VM-PC..-aluno``.
 
-Utilizando a exemplo a VM1-PC4 desta equipe, o passo anterior ficaria da seguinte maneira(ver imagens x e y): 
+Utilizando a exemplo a VM1-PC4 desta equipe, o passo anterior ficaria da seguinte maneira(ver imagens 4 e 5): 
 
 <p><center> Figura 4: Alteração de nome da VM</center></p>   
    <img src="figures/nomeVM.jpg" alt=""

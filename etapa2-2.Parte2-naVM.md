@@ -42,7 +42,7 @@ Para salvar, tem-se o atalho ``ctrl+S`` seguidoo de ``ctrl+X``
    <img src="figures/loginAdminIfal.jpg" alt=""
     title="Figura 2: Login-Admin" width="400" height="auto"/>
 
-### Na VM1-PC1
+### * Na VM1-PC1
 
 ```
 network:
@@ -54,7 +54,7 @@ network:
     version: 2
 ```
 
-### Na VM2-PC1
+### * Na VM2-PC1
 
 ```
 network:
@@ -72,7 +72,7 @@ network:
    <img src="figures/loginAdminIfal.jpg" alt=""
     title="Figura 2: Login-Admin" width="400" height="auto"/>
 
-### Na VM1-PC2
+### * Na VM1-PC2
 
 ```
 network:
@@ -84,7 +84,7 @@ network:
     version: 2
 ```
 
-### Na VM2-PC2
+### * Na VM2-PC2
 
 ```
 network:
@@ -102,7 +102,7 @@ network:
    <img src="figures/loginAdminIfal.jpg" alt=""
     title="Figura 2: Login-Admin" width="400" height="auto"/>
 
-### Na VM1-PC3
+### * Na VM1-PC3
 
 ```
 network:
@@ -114,7 +114,7 @@ network:
     version: 2
 ```
 
-### Na VM2-PC3
+### * Na VM2-PC3
 
 ```
 network:
@@ -132,7 +132,7 @@ network:
    <img src="figures/loginAdminIfal.jpg" alt=""
     title="Figura 2: Login-Admin" width="400" height="auto"/>
 
-### Na VM1-PC4
+### * Na VM1-PC4
 
 ```
 network:
@@ -144,7 +144,7 @@ network:
     version: 2
 ```
 
-### Na VM2-PC4
+### * Na VM2-PC4
 
 ```
 network:
@@ -156,6 +156,6 @@ network:
     version: 2
 ```
 
-### Salvar edições
+### * Salvar edições
 
 Após salvar previamente com ctrl+S+X, efetuamos o comando ``sudo netplan apply`` para salvar as novas informações.

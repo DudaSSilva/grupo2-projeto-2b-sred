@@ -30,7 +30,15 @@ Feito isso, efetuamos o comando ``ifconfig -a`` para certificar-nos de que o mes
  
 Uma vez concluídos os passos anteriores, o próximo é editar o arquivo 01-netcfg.yaml. Para tal, efetuamos o comando ``sudo nano /etc/netplan/01-netcfg.yaml`` e, para cada VM, editamos o arquivo de acordo com as definições de IP feitas na Etapa 1.
 
-A primeira modificação é feita no endereço ip, seguindo o modelo ``addresses: [192.168.13.xx/28]``, onde x representa os valores específicos de cada VM, e, em seguida,  alteramos o gateway padrão para ``gqteway4: 192.168.13.17`` 
+A primeira modificação é feita no endereço ip, seguindo o modelo:
+
+``addresses: [192.168.13.xx/28]``
+
+onde x representa os valores específicos de cada VM.
+
+Em seguida,  alteramos o gateway padrão para:
+
+``gateway4: 192.168.13.17`` 
 
 (Observação: estas informações precisam estar dentro do enp0s3 seguindo a identação corretapara evitar erros)
 

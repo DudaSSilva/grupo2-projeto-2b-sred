@@ -170,4 +170,8 @@ network:
 
 ### * Salvar edições
 
-Após salvar previamente com ctrl+S+X, efetuamos o comando ``sudo netplan apply`` para salvar as novas informações.
+Após salvar previamente com ctrl+S+X, efetuamos, para salvar as novas informações, o comando:
+
+``sudo netplan apply`` 
+
+Novamente, damos ``ifconfig -a`` para verificar se funcionou corretamente e, em seguida, damos ping nas VMs para verificar se a conexão entre elas está funcionando. Há duas maneiras para fazer isso: (i) entre as (duas) VMs de cada PC, sem que haja a necessidade, ainda, do cabo de conexão ou (ii) entre todas as VMs dos quatro PCs, havendo a necessidade da conexão ponto-a-ponto através de um switch.

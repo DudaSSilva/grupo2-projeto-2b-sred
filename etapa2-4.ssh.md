@@ -49,7 +49,7 @@ ssh eduardasoares@192.168.13.24
    * click no botão ``configurações`` --> ``Rede``
    * habilite um novo adaptador de rede clickando em ``Adaptador <n>`` --> ``[] Habilitar placa de rede``
    
-   *se sim, execute ``cd /etc/netplan``, ``sudo nano <nome_do_arquivo>.yaml``
-      *adicione
+   * se sim, execute ``cd /etc/netplan/``, ``sudo nano <nome_do_arquivo>.yaml``
+      * adicione
    
 

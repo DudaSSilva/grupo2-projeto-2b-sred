@@ -54,11 +54,17 @@ ssh eduardasoares@192.168.13.24
 * verifique se na saída do comando há o nome do adaptador de rede que foi criado
 * execute ``cd /etc/netplan/``
 * ``sudo nano <nome_do_arquivo>.yaml``
-   * adicione o no arquivo:
+   * adicione no arquivo:
       ```
       <nome_adaptador_de_rede>:
          dhcp4: true
       ```
+* execute ``sudo netplan apply``
+* verifique no ``ifconfig -a`` se as mudanças deram certo
+* abrir terminal do pc (sem ser da vm)
+* ``ssh <user>@<ip>``
+
+
      
    
 

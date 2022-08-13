@@ -41,6 +41,6 @@ ssh eduardasoares@192.168.13.24
 ## 5. Roteiro Host-Only (SSH pelo terminal)
 
 * abrir opção ``Host Network Manager`` dentro da aba ``Arquivo`` do Virtualbox ou ``ctrl + H``
-* criar novo adaptador de rede na opção ``Criar``
-*  
+* criar novo adaptador de rede no botão ``Criar``
+* click na botão ``Propriedades`` --> ``Servidor DHCP`` --> click ``[]Habilitar Servidor``
 

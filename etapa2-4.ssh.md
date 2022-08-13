@@ -44,12 +44,21 @@ ssh eduardasoares@192.168.13.24
 * criar novo adaptador de rede no botão ``Criar``
 * click na botão ``Propriedades`` --> ``Servidor DHCP`` --> click ``[]Habilitar Servidor``
 * entre em uma VM e digite ``ifconfig -a`` (necessita do ``sudo apt install net-tools`` antes de ser usado)
-   * verifique se na saída do comando há o nome do adaptador de rede que foi criado
-   * desligue a VM com ``sudo poweroff``
-   * click no botão ``configurações`` --> ``Rede``
-   * habilite um novo adaptador de rede clickando em ``Adaptador <n>`` --> ``[] Habilitar placa de rede``
-   
-   * se sim, execute ``cd /etc/netplan/``, ``sudo nano <nome_do_arquivo>.yaml``
-      * adicione
+* verifique se na saída do comando há o nome do adaptador de rede que foi criado
+* desligue a VM com ``sudo poweroff``
+* click no botão ``configurações`` --> ``Rede``
+* habilite um novo adaptador de rede clickando em ``Adaptador <n>`` --> ``[] Habilitar placa de rede``
+
+* iniciar VM
+* digite ``ifconfig -a``
+* verifique se na saída do comando há o nome do adaptador de rede que foi criado
+* execute ``cd /etc/netplan/``
+* ``sudo nano <nome_do_arquivo>.yaml``
+   * adicione o no arquivo:
+      ```
+      <nome_adaptador_de_rede>:
+         dhcp4: true
+      ```
+     
    
 

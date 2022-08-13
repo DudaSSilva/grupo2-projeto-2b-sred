@@ -27,3 +27,16 @@ Tabela 1: Definições de endereços IPs da Rede e Nomes de Hosts
 | VM2-PC4     | 192.168.13.24      |   srv-vm2-pc4     | vm1-pc4.grupo2-913.ifalara.net |       duda2      |
 ------------------------------------------------------------------------------------------------------------
 ```
+
+# Configurações de hardware
+
+As configurações de cada VM foram determinadas como as padrões definidas pelo próprio VirtualBox. Ficando, portanto:
+
+```
+* Memória principal: 512 MB
+* Memória de vídeo:  16 MB
+* CPU:               1
+* Controladora:      VMSVGA
+* Porta SATA 0-
+* ubuntu-server-mini-disk001.vdi
+```

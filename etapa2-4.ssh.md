@@ -39,3 +39,6 @@ ssh eduardasoares@192.168.13.24
    * para: srv-vm2-pc4
 
 ## 5. Roteiro Host-Only (SSH pelo terminal)
+
+* abrir opção ´´´Host Network Manager´´´ dentro da aba ´´´Arquivo´´´ do Virtualbox, 
+

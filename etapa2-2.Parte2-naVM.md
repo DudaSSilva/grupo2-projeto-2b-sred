@@ -22,6 +22,10 @@ Feito o login, nas VMS vamos, antes de mais nada, fazer a instalação das ferra
 
 ``sudo apt install net-tools -y``
 
+<p><center> Figura 3: Instalação de ferramentas</center></p>   
+   <img src="figures/installNet-tools.jpg" alt=""
+    title="Figura 3: Ferramentas" width="400" height="auto"/>
+
 Feito isso, efetuamos o comando ``ifconfig -a`` para certificar-nos de que o mesmo fora instalado e esteja funcionando. E utilizando o comando a seguir verificaremos se o arquivo ``yaml``, utilizado pelo ubuntu para configurr interfaces, se encontra instalado.
 
 ``cat /etc/netplan/01-netcfg.yaml``
@@ -46,9 +50,9 @@ Para salvar, tem-se o atalho ``ctrl+S`` seguidoo de ``ctrl+X``
 
 ### 2.3.1. Configuração da VM para PC 1
 
-<p><center> Figura 2: Configuração das NICs</center></p>   
-   <img src="figures/loginAdminIfal.jpg" alt=""
-    title="Figura 2: Login-Admin" width="400" height="auto"/>
+<p><center> Figura 4: IP VM1-PC1</center></p>   
+   <img src="figures/editIpVM1-PC1.jpg" alt=""
+    title="Figura 4: IPVM1" width="400" height="auto"/>
 
 ### * Na VM1-PC1
 
@@ -76,9 +80,9 @@ network:
 
 ### 2.3.2. Configuração da VM para PC 2
 
-<p><center> Figura 2: Configuração das NICs</center></p>   
-   <img src="figures/loginAdminIfal.jpg" alt=""
-    title="Figura 2: Login-Admin" width="400" height="auto"/>
+<p><center> Figura 5: IP VM2-PC2</center></p>   
+   <img src="figures/editIpVM2-PC2.jpg" alt=""
+    title="Figura 5: IPVM2" width="400" height="auto"/>
 
 ### * Na VM1-PC2
 
@@ -106,9 +110,9 @@ network:
 
 ### 2.3.2. Configuração da VM para PC 3
 
-<p><center> Figura 2: Configuração das NICs</center></p>   
-   <img src="figures/loginAdminIfal.jpg" alt=""
-    title="Figura 2: Login-Admin" width="400" height="auto"/>
+<p><center> Figura 6: IP VM1-PC3</center></p>   
+   <img src="figures/editIpVM1-PC3.jpg" alt=""
+    title="Figura 6: IPVM3" width="400" height="auto"/>
 
 ### * Na VM1-PC3
 
@@ -136,9 +140,9 @@ network:
 
 ### 2.3.2. Configuração da VM para PC 4
 
-<p><center> Figura 2: Configuração das NICs</center></p>   
-   <img src="figures/loginAdminIfal.jpg" alt=""
-    title="Figura 2: Login-Admin" width="400" height="auto"/>
+<p><center> Figura 7: IP VM2-PC4</center></p>   
+   <img src="figures/editIpVM2-PC4.jpg" alt=""
+    title="Figura 7: IPVM4" width="400" height="auto"/>
 
 ### * Na VM1-PC4
 

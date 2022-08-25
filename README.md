@@ -11,5 +11,5 @@ Um ambiente de rede virtualizada trata-se de (breve contextualização aqui, com
 * [Etapa 2: 2.Parte 1: Criação da VM](https://github.com/DudaSSilva/grupo2-projeto-2b-sred/blob/main/etapa2-2.Parte1-naVM.md) - criação da VM
 * [Etapa 2: 2.Parte 2: Configuração da VM](https://github.com/DudaSSilva/grupo2-projeto-2b-sred/blob/main/etapa2-2.Parte2-naVM.md) - configuração da VM
 * [Etapa 2: 3.Rede ponto-a-ponto](https://github.com/DudaSSilva/grupo2-projeto-2b-sred/blob/main/etapa2-3.RedePonto-a-ponto.md) - criação de rede ponto-a-ponto
-* [Etapa 2: 4.SSH](https://github.com/DudaSSilva/grupo2-projeto-2b-sred/blob/main/etapa2-4.ssh.md) - roteiro ssh
+* [Etapa 2: 4.SSH](https://github.com/DudaSSilva/grupo2-projeto-2b-sred/blob/main/etapa2-4.ssh&hostOnly.md) - roteiro ssh e host-only
 

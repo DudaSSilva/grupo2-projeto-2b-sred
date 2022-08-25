@@ -96,24 +96,6 @@ ssh eduardasoares@192.168.13.24
 
 * de: srv-vm1-pc3
    * para: srv-vm2-pc4
-
-### Testes de ssh
-
-<p><center> Figura 6:  VM2-PC2 para srv-vm1-pc1</center></p>   
-   <img src="figures/ssh1.jpg" alt=""
-    title="Figura 6: ssh1" width="600" height="auto"/>
-
-<p><center> Figura 7: VM2-PC1 para 192.168.13.18 (VM1-PC2)</center></p>   
-   <img src="figures/ssh2.jpg" alt=""
-    title="Figura 7: ssh2" width="600" height="auto"/>
-    
-<p><center> Figura 8: VM2-PC2 para srv-vm2-pc4</center></p>   
-   <img src="figures/ssh3.jpg" alt=""
-    title="Figura 8: ssh3" width="600" height="auto"/>
-    
-<p><center> Figura 9: VM2-PC1 para VM1-PC4</center></p>   
-   <img src="figures/ssh4.jpg" alt=""
-    title="Figura 9: ssh4" width="600" height="auto"/>
     
 ## 5. Roteiro Host-Only (SSH pelo terminal)
 
@@ -142,7 +124,24 @@ ssh eduardasoares@192.168.13.24
 * ``ssh <user>@<ip>``
 
 
-<p><center> Figura 7: Adaptador novo ativado</center></p>   
+<p><center> Figura 6: Adaptador novo ativado</center></p>   
    <img src="figures/adaptador.jpg" alt=""
-    title="Figura 7: adaptador" width="400" height="auto"/>
+    title="Figura 6: adaptador" width="400" height="auto"/>
 
+## 6. Testes de ssh
+
+<p><center> Figura 7:  VM2-PC2 para srv-vm1-pc1</center></p>   
+   <img src="figures/ssh1.jpg" alt=""
+    title="Figura 7: ssh1" width="600" height="auto"/>
+
+<p><center> Figura 8: VM2-PC1 para 192.168.13.18 (VM1-PC2)</center></p>   
+   <img src="figures/ssh2.jpg" alt=""
+    title="Figura 8: ssh2" width="600" height="auto"/>
+    
+<p><center> Figura 9: VM2-PC2 para srv-vm2-pc4</center></p>   
+   <img src="figures/ssh3.jpg" alt=""
+    title="Figura 9: ssh3" width="600" height="auto"/>
+    
+<p><center> Figura 10: VM2-PC1 para VM1-PC4</center></p>   
+   <img src="figures/ssh4.jpg" alt=""
+    title="Figura 10: ssh4" width="600" height="auto"/>

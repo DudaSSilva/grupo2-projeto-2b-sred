@@ -40,28 +40,28 @@ ssh eduardasoares@192.168.13.24
 
 ## 5. Roteiro Host-Only (SSH pelo terminal)
 
-* abrir opção ``Host Network Manager`` dentro da aba ``Arquivo`` do Virtualbox ou ``ctrl + H``
-* criar novo adaptador de rede no botão ``Criar``
-* click na botão ``Propriedades`` --> ``Servidor DHCP`` --> click ``[]Habilitar Servidor``
-* entre em uma VM e digite ``ifconfig -a`` (necessita do ``sudo apt install net-tools`` antes de ser usado)
-* verifique se na saída do comando há o nome do adaptador de rede que foi criado
-* desligue a VM com ``sudo poweroff``
-* click no botão ``configurações`` --> ``Rede``
-* habilite um novo adaptador de rede clickando em ``Adaptador <n>`` --> ``[] Habilitar placa de rede``
+* Abrir opção ``Host Network Manager`` dentro da aba ``Arquivo`` do Virtualbox ou ``ctrl + H``
+* Criar novo adaptador de rede no botão ``Criar``
+* Click na botão ``Propriedades`` --> ``Servidor DHCP`` --> click ``[]Habilitar Servidor``
+* Entre em uma VM e digite ``ifconfig -a`` (necessita do ``sudo apt install net-tools`` antes de ser usado)
+* Verifique se na saída do comando há o nome do adaptador de rede que foi criado
+* Desligue a VM com ``sudo poweroff``
+* Click no botão ``configurações`` --> ``Rede``
+* Habilite um novo adaptador de rede clickando em ``Adaptador <n>`` --> ``[] Habilitar placa de rede``
 
-* iniciar VM
-* digite ``ifconfig -a``
-* verifique se na saída do comando há o nome do adaptador de rede que foi criado
-* execute ``cd /etc/netplan/``
+* Iniciar VM
+* Digite ``ifconfig -a``
+* Verifique se na saída do comando há o nome do adaptador de rede que foi criado
+* Execute ``cd /etc/netplan/``
 * ``sudo nano <nome_do_arquivo>.yaml``
-   * adicione no arquivo:
+   * Adicione no arquivo:
       ```
       <nome_adaptador_de_rede>:
          dhcp4: true
       ```
-* execute ``sudo netplan apply``
-* verifique no ``ifconfig -a`` se as mudanças deram certo
-* abrir terminal do pc (sem ser da vm)
+* Execute ``sudo netplan apply``
+* Verifique no ``ifconfig -a`` se as mudanças deram certo
+* Abrir terminal do pc (sem ser da vm)
 * ``ssh <user>@<ip>``
 
 

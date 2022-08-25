@@ -9,7 +9,7 @@ A sub-rede norteadora desta etapa é a sub-rede 192.168.13.[16-31]. A partir des
 * Broadcast: 198.168.13.31
 * gateway: 192.168.13.17
 
-Sabendo-se disso, e sabendo que as VMs do PC4, PC2, PC3 e PC4 foram designadas para os alunos Matheus, Ygir, Camile e Eduarda, respectivamente, a nossa tabela pode ser constituída (Tabela 1).
+Sabendo-se disso, e sabendo que as VMs do PC1, PC2, PC3 e PC4 foram designadas para os alunos Matheus, Ygir, Camile e Eduarda, respectivamente, a nossa tabela pode ser constituída (Tabela 1).
 
 ```
 Tabela 1: Definições de endereços IPs da Rede e Nomes de Hosts

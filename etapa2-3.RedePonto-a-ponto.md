@@ -8,6 +8,8 @@
 
 ### 3.2. Modo Bridge
 
+Nos adaptadores das VMs, previamente ao teste de ping, é necessário alterar as configurações de rede para o modo Bridge. 
+
 ### 3.3. Testando a conectividade entre as VMs
 
    * Ping da VM1-PC1 para VM2-PC2

@@ -1,4 +1,4 @@
-## 2. Parte3: Montando uma rede ponto a ponto física entre quatro PCs e uma LAN lógica com 8 VMs
+## 2. Parte 3: Montando uma rede ponto a ponto física entre quatro PCs e uma LAN lógica com 8 VMs
 
 ### 3.1. conecção de cabos via Switch
 

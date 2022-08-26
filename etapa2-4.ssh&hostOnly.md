@@ -110,6 +110,7 @@ Logo, para que essas configurações sejam feitas, efetuamos:
 sudo ufw allow ssh.
 sudo ufw status
 sudo ufw enable
+sudo ufw status
 ```
 <p><center> Figura 7: Firewell</center></p>   
    <img src="figures/firewell.jpg" alt=""

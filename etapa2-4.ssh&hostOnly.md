@@ -64,20 +64,74 @@ Antes de criar novos usuários, vamos alterar os nomes de hostname do usuário a
 
 ```sudo hostnamectl set-hostname srv-vm1-pc4```
 
+### 4.2. Instalar SSH
 
-### 4.2. Criando usuários
+Para instalar o SSH antes de conectar os PCs para fazer a VM funcionar, é necessário que o cabeamento de conexão de rede ponto-a-ponto seja desfeito, ou seja, desconecta tais cabos do pc (deixando o cabo de conexão à internet em seu lugar).
+
+Então, verificamos se a internet está funcionando utilizando os comandos seguintes:
+
+```
+sudo apt update
+sudo apt upgrade -y
+```
+
+Se não ocorrer erros, pode prosseguir com a instalação.
+
+Para instalar o SSH Server, utilizamos os comandos: 
+
+```
+sudo apt-get install openssh-server
+```
+Agora verificamos se o ssh está ativado com o comando:
+
+``systemctl status ssh``
+
+A figura a seguir demonstra o que deve aparecer após a execução do código anterior, caso ocorra tudo certo.
+
+<p><center> Figura 5: Instalar ssh</center></p>   
+   <img src="figures/ssh1instal.jpg" alt=""
+    title="Figura 5: Instalar-ssh-1" width="400" height="auto"/>
+
+Feito isso, verificamos as portas do sistema através do comando:
+
+``netstat -an | grep LISTEN.``
+
+<p><center> Figura 6: Verificação de portas</center></p>   
+   <img src="figures/ssh1instal.jpg" alt=""
+    title="Figura 6: Portas" width="400" height="auto"/>
+
+Agora, para certificarnos que o controle de acesso do sistema estão exercendo corretamente sua funcionalidade, o comando ```` deve ser inserido para ativar o SSH no firewell UFW.
+
+Uma vez que ele isto for feito, as conexões SSH serão permitidas.
+
+Logo, para que essas configurações sejam feitas, efetuamos:
+
+```
+sudo ufw allow ssh.
+sudo ufw status
+sudo ufw enable
+```
+<p><center> Figura 7: Instalar ssh</center></p>   
+   <img src="figures/ssh1instal.jpg" alt=""
+    title="Figura 7: Instalar-ssh-1" width="400" height="auto"/>
+    
+### 4.3. Criando usuários
 
 Em cada VM crie um usuário com o comando ``adduser``
 
-<p><center> Figura 5: Configuração das NICs</center></p>   
+<p><center> Figura 5: Adição de usuário</center></p>   
    <img src="figures/adduser.jpg" alt=""
-    title="Figura 5: Login-Admin" width="400" height="auto"/>
+    title="Figura 5: Usuario" width="400" height="auto"/>
 
-### 4.3. Acessando uma VM remotamente
+<p><center> Figura 5: Adição de usuário</center></p>   
+   <img src="figures/adduser.jpg" alt=""
+    title="Figura 5: Usuario" width="400" height="auto"/>
+    
+### 4.4. Acessando uma VM remotamente
 
 * Exemplo: $ ssh ``<user>``@``<ipServidorRemoto>``
 
-### 4.4. Fazendo o login 
+### 4.5. Fazendo o login 
 
 
 * de: srv-vm2-pc1

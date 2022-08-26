@@ -10,6 +10,14 @@
 
 Nos adaptadores das VMs, previamente ao teste de ping, é necessário alterar as configurações de rede para o modo Bridge. 
 
+Para isso, basta ir nas configurações de cada VM. Em seguida, entra na aba de Redes e marca a opção de habilitar placa de rede. Após isso, em ``conectado a``, altera de Rede Interna para Placa em Modo Bridge. 
+
+(É importante também alterar o endereço MAC para um outro, no intuito de não gerar conflito devido á padronização de endereços das VM's. Para isso, é só clicar no botão azul ao lado do endereço MAC e um novo endereço, sendo este aleatóriio, será definido para a VM.)
+
+<p><center> Figura 2: Configuração das NICs</center></p>   
+   <img src="figures/loginAdminIfal.jpg" alt=""
+    title="Figura 2: Login-Admin" width="400" height="auto"/>
+
 ### 3.3. Testando a conectividade entre as VMs
 
    * Ping da VM1-PC1 para VM2-PC2

@@ -111,10 +111,12 @@ sudo ufw allow ssh.
 sudo ufw status
 sudo ufw enable
 ```
-<p><center> Figura 7: Instalar ssh</center></p>   
+<p><center> Figura 7: Firewell</center></p>   
    <img src="figures/firewell.jpg" alt=""
-    title="Figura 7: Instalar-firewell-1" width="400" height="auto"/>
-    
+    title="Figura 7: Firewell" width="400" height="auto"/>
+
+Por conseguinte, o próximo passo é efetuar o login nas VMs de todos os PC's conforme é descrito no tópico 4.4., posterior à adição de usuários das VMS, esses sendo os usuários utilizados como uma forma de efetuar o login.
+
 ### 4.3. Criando usuários
 
 Em cada VM cria-se um usuário com o comando ``adduser``

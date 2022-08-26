@@ -30,7 +30,7 @@ Feito isso, efetuamos o comando ``ifconfig -a`` para certificar-nos de que o mes
 
 ``cat /etc/netplan/01-netcfg.yaml``
 
-### 2.3. Configuração dos endereços IPs na interface da rede
+### 2.3. Configuração estática dos endereços IPs na interface da rede
  
 Uma vez concluídos os passos anteriores, o próximo é editar o arquivo 01-netcfg.yaml. Para tal, efetuamos o comando ``sudo nano /etc/netplan/01-netcfg.yaml`` e, para cada VM, editamos o arquivo de acordo com as definições de IP feitas na Etapa 1.
 

@@ -2,6 +2,13 @@
 
 ## Grupo 2
 
+* Camile Vitória de Farias Alves 
+* Eduarda Soares da Silva 
+* Matheus Ferreira de Lima
+* Ygor Saraiva dos Santos
+
+## Sobre o projeto
+
 Um ambiente de rede virtualizada trata-se de (breve contextualização aqui, com ênfase na parte teórica/lógica). Sabendo disso, segue abaixo um tutorial de como isso ocorre, na prática.
 
 ### Tutorial do passo-a-passo de configuração  e execução de um ambiente de rede virtualizada:

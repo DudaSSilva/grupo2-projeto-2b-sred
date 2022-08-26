@@ -89,7 +89,7 @@ Agora verificamos se o ssh está ativado com o comando:
 A figura a seguir demonstra o que deve aparecer após a execução do código anterior, caso ocorra tudo certo.
 
 <p><center> Figura 5: Instalar ssh</center></p>   
-   <img src="figures/ssh1instal.jpg" alt=""
+   <img src="figures/sshAtivado.jpg" alt=""
     title="Figura 5: Instalar-ssh-1" width="400" height="auto"/>
 
 Feito isso, verificamos as portas do sistema através do comando:
@@ -97,7 +97,7 @@ Feito isso, verificamos as portas do sistema através do comando:
 ``netstat -an | grep LISTEN.``
 
 <p><center> Figura 6: Verificação de portas</center></p>   
-   <img src="figures/ssh1instal.jpg" alt=""
+   <img src="figures/listen.jpg" alt=""
     title="Figura 6: Portas" width="400" height="auto"/>
 
 Agora, para certificarnos que o controle de acesso do sistema estão exercendo corretamente sua funcionalidade, o comando ```` deve ser inserido para ativar o SSH no firewell UFW.
@@ -124,7 +124,7 @@ Em cada VM crie um usuário com o comando ``adduser``
     title="Figura 5: Usuario" width="400" height="auto"/>
 
 <p><center> Figura 5: Adição de usuário</center></p>   
-   <img src="figures/adduser.jpg" alt=""
+   <img src="figures/adduser1.jpg" alt=""
     title="Figura 5: Usuario" width="400" height="auto"/>
     
 ### 4.4. Acessando uma VM remotamente

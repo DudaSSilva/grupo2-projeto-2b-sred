@@ -204,6 +204,27 @@ ssh eduardasoares@192.168.13.24
     title="Figura 14: ssh4" width="600" height="auto"/>
     
     
-<p><center> Figura 15: teste de conexão SSH</center></p>   
+<p><center> Figura 15: teste de conexão SSH com usuários diferentes</center></p>   
    <img src="figures/teste_ssh1.jpg" alt=""
-    title="Figura 15: teste de conexão SSH" width="400" height="auto"/>
+    title="teste de conexão SSH" width="400" height="auto"/>
+    
+   <img src="figures/teste_ssh2.jpg" alt=""
+    title="teste de conexão SSH" width="400" height="auto"/>
+   
+   <img src="figures/teste_ssh3.jpg" alt=""
+    title="teste de conexão SSH" width="400" height="auto"/>
+   
+   <img src="figures/teste_ssh4.jpg" alt=""
+    title="teste de conexão SSH" width="400" height="auto"/>
+   
+   <img src="figures/teste_ssh5.jpg" alt=""
+    title="teste de conexão SSH" width="400" height="auto"/>
+   
+   <img src="figures/teste_ssh6.jpg" alt=""
+    title="teste de conexão SSH" width="400" height="auto"/>
+   
+   <img src="figures/teste_ssh7.jpg" alt=""
+    title="teste de conexão SSH" width="400" height="auto"/>
+   
+   <img src="figures/teste_ssh8.jpg" alt=""
+    title="teste de conexão SSH" width="400" height="auto"/>

@@ -202,3 +202,8 @@ ssh eduardasoares@192.168.13.24
 <p><center> Figura 14: VM2-PC1 para VM1-PC4</center></p>   
    <img src="figures/ssh4.jpg" alt=""
     title="Figura 14: ssh4" width="600" height="auto"/>
+    
+    
+<p><center> Figura 15: teste de conexão SSH</center></p>   
+   <img src="figures/teste_ssh1.jpg" alt=""
+    title="Figura 15: teste de conexão SSH" width="400" height="auto"/>

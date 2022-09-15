@@ -11,7 +11,7 @@ Antes de criar novos usuários, vamos alterar os nomes de hostname do usuário a
 
 
 ### 4.1.0 Editando o Arquivo /etc/hosts
-1) fotos do arquivo /etc/hosts 
+
    <img src="figures/newEtcHosts.jpg" alt=""
     title="arquivo de hosts1" width="400" height="auto"/>
     
@@ -22,6 +22,16 @@ Antes de criar novos usuários, vamos alterar os nomes de hostname do usuário a
     
    <img src="figures/newEtcHosts3.jpg" alt=""
     title="arquivo de hosts3" width="400" height="auto"/>
+    
+   <img src="figures/newEtcHosts4.jpg" alt=""
+    title="arquivo de hosts4" width="400" height="auto"/>
+    
+   <img src="figures/newEtcHosts5.jpg" alt=""
+    title="arquivo de hosts5" width="400" height="auto"/>
+    
+   <img src="figures/newEtcHosts6.jpg" alt=""
+    title="arquivo de hosts6" width="400" height="auto"/>
+    
    
 
 ### 4.1.1.  VM's  PC1

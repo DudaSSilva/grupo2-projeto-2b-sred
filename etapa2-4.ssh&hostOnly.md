@@ -8,6 +8,22 @@ Antes de criar novos usuários, vamos alterar os nomes de hostname do usuário a
 
 ```sudo hostnamectl set-hostname <hostname>```
 
+
+
+### 4.1.0 Editando o Arquivo /etc/hosts
+1) fotos do arquivo /etc/hosts 
+   <img src="figures/newEtcHosts.jpg" alt=""
+    title="arquivo de hosts1" width="400" height="auto"/>
+    
+    
+   <img src="figures/newEtcHosts2.jpg" alt=""
+    title="arquivo de hosts2" width="400" height="auto"/>
+    
+    
+   <img src="figures/newEtcHosts3.jpg" alt=""
+    title="arquivo de hosts3" width="400" height="auto"/>
+   
+
 ### 4.1.1.  VM's  PC1
 
 <p><center> Figura 1: Exemplo alteração de hostname PC1</center></p>   
